@@ -122,7 +122,7 @@ npm install
 ```
 
 ### Development
-Run the server in development mode:
+Run the server in development mode (using `.env` for local port):
 ```bash
 npm run start:dev
 ```
@@ -133,28 +133,35 @@ npm run start:watch
 ```
 
 ### Build
-Generate the production build:
+Generate the production build (with assets copied):
 ```bash
 npm run dist
 ```
 
-Run the built server:
+Run the built server locally:
 ```bash
 npm run start:dist
 ```
 
 ### Scripts Overview
-- `start:dev` → Run with tsx and environment variables  
-- `start:watch` → Run with tsx in watch mode  
-- `dist` → Build with tsup  
-- `start:dist` → Build and run production server  
+- `start:dev` → Run `local-server.ts` with tsx and environment variables  
+- `start:watch` → Run `local-server.ts` with tsx in watch mode  
+- `dist` → Build with tsup and copy JSON assets  
+- `start:dist` → Build and run production server from `dist`  
+- `vercel` → Run `server.ts` (export-only handler) for deployment compatibility  
+
+## Local vs Vercel
+- **Local development** uses `local-server.ts` with `http.createServer(app)` and `.env` for port configuration.  
+- **Vercel deployment** uses `server.ts`, which exports `app` directly as a serverless handler. No `PORT` is required in production.
 
 ## Technologies
 - Node.js (native HTTP)  
 - TypeScript  
 - tsx  
 - tsup  
+- dotenv  
 - NPM  
+- Vercel (serverless deployment)  
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).

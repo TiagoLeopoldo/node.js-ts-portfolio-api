@@ -1,10 +1,6 @@
-import * as http from "http";
 import { app } from "./app";
+import dotenv from "dotenv";
 
-const server = http.createServer(app);
+dotenv.config();
 
-const port = process.env.PORT;
-
-server.listen(port, () => {
-  console.log(`Servidor iniciado na porta: ${port}.`);
-});
+export default app;
