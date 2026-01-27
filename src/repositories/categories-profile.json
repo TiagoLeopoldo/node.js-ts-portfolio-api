@@ -1,0 +1,133 @@
+{
+  "personalInfos": {
+    "name": "Tiago de N. Leopoldo",
+    "photo": "https://avatars.githubusercontent.com/u/122064619?s=400&u=3a495d1306a47e300e8ace07e8bc9a0042aec123&v=4",
+    "job": "Desenvolvedor Fullstack (link LinkedIn)",
+    "linkedin": "https://www.linkedin.com/in/tiago-noronha-leopoldo",
+    "location": "São João de Meriti/RJ - Brasil",
+    "phone": "(21) 97427-8358",
+    "email": "tnleopoldo.dev@gmail.com"
+  },
+
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "React",
+        "logo": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+      },
+      {
+        "name": "Node",
+        "logo": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+      },
+      {
+        "name": "Next.js",
+        "logo": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+      },
+      {
+        "name": "HTML5",
+        "logo": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+      },
+      {
+        "name": "CSS3",
+        "logo": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "logo": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+      },
+      {
+        "name": "styled-components",
+        "logo": "https://cdn.worldvectorlogo.com/logos/styled-components-1.svg"
+      },
+      {
+        "name": "Git",
+        "logo": "https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
+      },
+      {
+        "name": "Vite",
+        "logo": "https://cdn.worldvectorlogo.com/logos/vitejs.svg"
+      },
+      {
+        "name": "Yarn",
+        "logo": "https://avatars.githubusercontent.com/u/22247014?s=64&v=4"
+      }
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação eficaz",
+      "Empatia",
+      "Protatividade e autonomia",
+      "Organização",
+      "Aprendizado contínuo",
+      "Resolução de problemas"
+    ]
+  },
+
+  "languages": [
+    { "id": "pt", "language": "Português BR (Nativo)" },
+    { "id": "eng", "language": "Inglês (Básico - leitura técnica)" }
+  ],
+
+  "portfolio": {
+    "projects": [
+      {
+        "name": "Meu Portfólio 2.0",
+        "description": "Este foi o primeiro portfólio que desenvolvi e, nesta versão, optei por reutilizá-lo aplicando tecnologias e bibliotecas amplamente adotadas no mercado. Originalmente, o projeto fez parte do meu aprendizado inicial em JavaScript, com uma estrutura inteiramente em HTML. Posteriormente, decidi implementar o mesmo design em um projeto baseado em componentes, utilizando ferramentas modernas para aplicar e validar meus conhecimentos técnicos. O sistema foi desenvolvido em React e TypeScript, consumindo informações por meio de requisições à API REST via Axios. Essa API também foi criada por mim em Node.js, sem uso de frameworks, seguindo um padrão simples e apenas para leitura (read-only). Acredito que consegui tornar o projeto mais escalável e, por ser o primeiro, tenho um grande apreço por ele. Meu objetivo é continuar evoluindo sua estrutura para que se torne cada vez mais sólido e profissional. O link do repositório presente aqui corresponde ao front-end; na documentação você encontrará também o link para o repositório da API.",
+        "repositorie": "https://github.com/TiagoLeopoldo/portfolio-react-ts",
+        "deploy": "https://www.tiagonldev.com.br",
+        "github": true
+      },
+      {
+        "name": "Email Classifier AI",
+        "description": "O Email Classifier AI foi desenvolvido como desafio para uma vaga de estágio, utilizando Python e FastAPI. Sua principal função é classificar e-mails em três categorias Produtivo, Improdutivo e Irrelevante, e gerar respostas automáticas contextualizadas com apoio da API da OpenAI. O sistema também interpreta arquivos PDF, realizando o parsing do conteúdo. O projeto aplica técnicas de NLP com NLTK (remoção de stopwords, normalização e lematização) e organiza o backend em camadas bem definidas, incluindo serviços para integração com OpenAI e extração de PDFs. Os principais endpoints permitem classificar textos ou arquivos enviados, e todos os resultados são registrados em logs. Por usar uma conta gratuita da OpenAI, a aplicação pode parar de funcionar após várias tentativas; nesse caso, basta me contatar para revalidar o token. Apesar de ainda estar em evolução com Python, todo o planejamento e arquitetura foram de minha responsabilidade, mostrando minha capacidade de estruturar soluções escaláveis e inteligentes.",
+        "repositorie": "https://github.com/TiagoLeopoldo/email-ai-js-py",
+        "deploy": "https://email-ai-js-py.vercel.app/",
+        "github": true
+      },
+      {
+        "name": "Re.Colhe",
+        "description": "O Re.Colhe é um protótipo de aplicação web desenvolvido com arquitetura mobile-first, pensado inicialmente como uma aplicação voltada para dispositivos móveis, onde seu visual se apresenta de forma mais agradável em resoluções de smartphones. O projeto foi concebido para oferecer uma experiência otimizada em aparelhos móveis e, ao mesmo tempo, integrar tecnologia e sustentabilidade aos Objetivos de Desenvolvimento Sustentável da ONU. Originalmente criado como parte de um exercício de aprendizado, decidi reestruturá-lo utilizando ferramentas modernas e práticas amplamente adotadas no mercado, aplicando e validando meus conhecimentos técnicos. O front-end foi desenvolvido em ReactJS e TypeScript, com consumo de dados via Axios, mapas interativos implementados com React Leaflet e Vite como bundler. Entre as funcionalidades estão o mapa interativo de pontos de coleta, a gestão de locais favoritos, um fórum comunitário integrado e conteúdo educativo ambiental. O projeto contou com uma equipe multidisciplinar, envolvendo profissionais de UI/UX, Back-End e Front-End, e pude contribuir diretamente na parte de desenvolvimento do front. Para acessar a aplicação, é possível realizar login com credenciais pré-configuradas: utilizar o e-mail  e senha  para o perfil de morador, ou o e-mail  e senha  para o perfil de empresa. Acredito que o Re.Colhe demonstra como a tecnologia pode ser aplicada em prol da sustentabilidade, tornando o projeto escalável e relevante.",
+        "repositorie": "https://github.com/TiagoLeopoldo/Re-Colhe-Frontend-TCC-2025",
+        "deploy": "https://tiagoleopoldo.github.io/Re-Colhe-Frontend-TCC-2025/",
+        "github": true
+      }
+    ]
+  },
+
+  "professionalExperiences": {
+    "experiences": [
+      {
+        "name": "Estartando Dev's - Desenvolvedor Front-end Aprendiz (React.js, TypeScript, CSS)",
+        "period": "agosto 2025 - novembro 2025",
+        "description": "Desenvolvi o front-end completo da aplicação web Re.Colhe, um projeto de impacto socioambiental. Fui responsável pela arquitetura e implementação da interface em React e TypeScript, garantindo escalabilidade e legibilidade do código. Criei uma biblioteca de componentes reutilizáveis que atende mais de 15 telas, assegurando consistência visual e facilidade de manutenção. Realizei a integração de APIs REST com Axios para autenticação e consumo de dados dinâmicos, além de implementar layouts responsivos e acessíveis com CSS Modules, alinhados ao design system. O versionamento foi conduzido com Git e GitHub, em colaboração direta com equipes de back-end e UX/UI."
+      },
+      {
+        "name": "MartSpec LLC - Desenvolvedor Front-end Volutário (React.js, TypeScript, BootStrap)",
+        "period": "maio 2025 - junho 2025",
+        "description": "Atuei em equipe remota e internacional (por um período curto de um mês, era o período máximo permitido para volutário) no desenvolvimento e modernização de uma plataforma web, contribuindo para a refatoração de componentes visuais com princípios de Atomic Design, o que aumentou a modularidade e a facilidade de manutenção. Também participei do processo de internacionalização da plataforma, ampliando seu alcance para 12 idiomas. No dia a dia, utilizei Git e GitHub para versionamento e colaboração em código distribuído, além de integrar fluxos de trabalho ágeis com Kanban, organizados no Jira e com comunicação contínua via Slack."
+      },
+      {
+        "name": "Em transição de carreira para Desenvolvimento Front-End",
+        "period": "novembro 2024 - maio 2025",
+        "description": "Sempre tive curiosidade por tecnologia, mas segui carreira na gastronomia de alto padrão por mais de uma década, onde desenvolvi disciplina, liderança e foco na experiência do cliente. Aos 32 anos decidi retomar minha conexão com a área e iniciando minha transição com desenvolvimento front-end. Hoje curso Análise e Desenvolvimento de Sistemas, participei do programa Estartando Devs e já atuei em projetos reais como a MartSpec LLC com React, TypeScript, Git, Figma e metodologias ágeis. Essa mudança representa um reencontro com minha essência e o objetivo de criar soluções digitais."
+      }
+    ]
+  },
+
+  "academic": {
+    "course": [
+      {
+        "name": "CST em Análise e Desenvolvimento de Sistemas - Universidade Veiga de Almeida",
+        "period": "maio 2025 - presente"
+      }
+    ]
+  }
+}

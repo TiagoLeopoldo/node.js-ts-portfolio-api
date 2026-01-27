@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx watch --env-file=.env src/server.ts",
+    "dist": "rm -rf && tsup src",
+    "start:dist": "rm -rf && npm run dist && --env-file=.env node/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
