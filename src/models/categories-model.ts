@@ -4,6 +4,7 @@ export interface PortfolioDataModel {
     photo: string;
     job: string;
     linkedin: string;
+    curriculum: string;
     location: string;
     phone: string;
     email: string;
