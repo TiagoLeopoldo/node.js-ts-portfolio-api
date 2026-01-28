@@ -93,7 +93,7 @@
     "projects": [
       {
         "id": "1",
-        "name": "Meu Portfólio 2.0",
+        "name": "Meu Portfólio",
         "description": "Portfólio em React e TypeScript com consumo de API REST em Node.js. Estrutura baseada em componentes, escalável e validada com boas práticas modernas.",
         "repositorie": "https://github.com/TiagoLeopoldo/portfolio-react-ts",
         "deploy": "https://www.tiagonldev.com.br",
