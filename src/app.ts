@@ -6,9 +6,15 @@ export const app = async (
   request: http.IncomingMessage,
   response: http.ServerResponse,
 ) => {
+  
   response.setHeader("Access-Control-Allow-Origin", "*");
   response.setHeader("Access-Control-Allow-Methods", "GET,OPTIONS");
   response.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+  response.setHeader(
+    "Cache-Control",
+    "public, s-maxage=60, stale-while-revalidate=300"
+  );
 
   if (request.method === "OPTIONS") {
     response.writeHead(200);
