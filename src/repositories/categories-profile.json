@@ -110,7 +110,7 @@
       {
         "id": "3",
         "name": "Re.Colhe",
-        "description": "Protótipo web mobile-first voltado à sustentabilidade, desenvolvido em React e TypeScript. Inclui mapa interativo, fórum comunitário e conteúdos educativos.",
+        "description": "Protótipo web mobile-first voltado à sustentabilidade, desenvolvido em React e TypeScript. Inclui mapa interativo, fórum comunitário e conteúdos educativos. Para testar a aplicação, utilize as credenciais pré-configuradas: Morador (MariaSouza@mail.com / 123456) ou Empresa (HenriqueMattos@mail.com / 123456).",
         "repositorie": "https://github.com/TiagoLeopoldo/Re-Colhe-Frontend-TCC-2025",
         "deploy": "https://tiagoleopoldo.github.io/Re-Colhe-Frontend-TCC-2025/",
         "github": true
