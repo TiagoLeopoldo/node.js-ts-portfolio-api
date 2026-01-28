@@ -11,6 +11,7 @@ export interface PortfolioDataModel {
 
   skills: {
     hardSkills: {
+      id: string;
       name: string;
       logo: string;
     }[];
@@ -24,6 +25,7 @@ export interface PortfolioDataModel {
 
   portfolio: {
     projects: {
+      id: string;
       name: string;
       description: string;
       repositorie: string;
@@ -34,6 +36,7 @@ export interface PortfolioDataModel {
 
   professionalExperiences: {
     experiences: {
+      id:string;
       name: string;
       period: string;
       description: string;
@@ -42,6 +45,7 @@ export interface PortfolioDataModel {
 
   academic: {
     course: {
+      id: string;
       name: string;
       period: string;
     }[];
